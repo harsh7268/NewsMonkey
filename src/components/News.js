@@ -114,7 +114,7 @@ export class News extends Component {
   render() {
     return (
       <>
-        <h1 className="my-5 py-4 mb-5 text-center" >NewsMonkey - Top  {this.capitalizeFirstLetter(this.props.category)} Headlines </h1> 
+        <h1 className="my-5 py-4 mb-5 text-center" >NewsMonkey - Top  {this.capitalizeFirstLetter(this.props.category)} Headlines In Everyday</h1> 
        
         {this.state.loading && <Spinner/>}
           {/*!this.state.loading &&*/ }
